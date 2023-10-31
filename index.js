@@ -153,6 +153,7 @@
       // On mobile, hide scene list after selecting a scene.
       if (document.body.classList.contains('mobile')) {
         hideSceneList();
+        startAutorotate();
       }
     });
   });
