@@ -190,6 +190,10 @@
     scene.scene.switchTo();
     startAutorotate();
     stopAutorotate();
+     // Start with the Autorate on desktop.
+    if (!document.body.classList.contains('mobile')) {
+        startAutorotate();
+    }
     updateSceneName(scene);
     updateSceneList(scene);
     enableGiro(scene);
