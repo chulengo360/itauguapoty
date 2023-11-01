@@ -146,7 +146,7 @@ var APP_DATA = {
     },
     {
       "id": "2-obra",
-      "name": "Obra en construcci&oacute;n",
+      "name": "Obra en construccion",
       "levels": [
         {
           "tileSize": 256,
