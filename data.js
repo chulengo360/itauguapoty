@@ -128,7 +128,7 @@ var APP_DATA = {
           "yaw": -0.024253407601758425,
           "pitch": 0.41237728679105956,
           "title": "El vivero",
-          "text": "Insertar link al video"
+          "text": "Insertar link al video2: <iframe width=\"360\" height=\"215\" src=\"https://www.youtube.com/embed/B8Ga2aAyizo?si=-Ru9o3bnpnxqweko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
         },
         {
           "yaw": 0.5022539795221252,
