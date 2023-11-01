@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-cielo",
-      "name": "cielo",
+      "name": "Itaugua Poty",
       "levels": [
         {
           "tileSize": 256,
@@ -77,7 +77,7 @@ var APP_DATA = {
     },
     {
       "id": "1-huerta",
-      "name": "huerta",
+      "name": "La huerta",
       "levels": [
         {
           "tileSize": 256,
@@ -146,7 +146,7 @@ var APP_DATA = {
     },
     {
       "id": "2-obra",
-      "name": "obra",
+      "name": "Obra en construcción",
       "levels": [
         {
           "tileSize": 256,
@@ -207,7 +207,7 @@ var APP_DATA = {
     },
     {
       "id": "3-taller",
-      "name": "taller",
+      "name": "El taller",
       "levels": [
         {
           "tileSize": 256,
@@ -282,7 +282,7 @@ var APP_DATA = {
     },
     {
       "id": "4-casa_retro",
-      "name": "casa_retro",
+      "name": "Casa principal",
       "levels": [
         {
           "tileSize": 256,
@@ -345,7 +345,7 @@ var APP_DATA = {
     },
     {
       "id": "5-cocina",
-      "name": "cocina",
+      "name": "El interior",
       "levels": [
         {
           "tileSize": 256,
