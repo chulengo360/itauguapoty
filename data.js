@@ -194,7 +194,7 @@ var APP_DATA = {
         {
           "yaw": 1.83456436088768,
           "pitch": 0.2576834594756452,
-          "title": "Obra en construcci&oacute;n",
+          "title": "Obra en construccion",
           "text": "Este sera nuestro futuro SUM"
         },
         {
