@@ -153,7 +153,6 @@
       // On mobile, hide scene list after selecting a scene.
       if (document.body.classList.contains('mobile')) {
         hideSceneList();
-        startAutorotate();
       }
     });
   });
@@ -189,11 +188,10 @@
     stopAutorotate();
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
-    startAutorotate();
-    stopAutorotate();
      // Start with the Autorate on desktop.
     if (!document.body.classList.contains('mobile')) {
         startAutorotate();
+        hideSceneList();
     }
     updateSceneName(scene);
     updateSceneList(scene);
