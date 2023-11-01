@@ -189,8 +189,11 @@
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
      // Start with the Autorate on desktop.
-    if (!document.body.classList.contains('mobile')) {
+    if (document.body.classList.contains('mobile')) {
         startAutorotate();
+
+    }
+    else  {
         hideSceneList();
     }
     updateSceneName(scene);
