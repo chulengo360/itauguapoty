@@ -10,6 +10,12 @@
     @-ms-viewport {
       width: device-width;
     }
+
+    @media (max-width: 600px) {
+    .no_mobile {
+        visibility: hidden;
+        }
+    }
   </style>
   <link rel="stylesheet" href="vendor/reset.min.css">
   <link rel="stylesheet" href="style.css">
@@ -29,7 +35,7 @@
     <h1 class="sceneName"></h1>
   </div>
 
-  <a href="javascript:void(0)" id="autorotateToggle" >
+  <a href="javascript:void(0)" id="autorotateToggle" class="no_mobile" >
     <img class="icon off" src="img/play.png">
     <img class="icon on" src="img/pause.png">
   </a>
