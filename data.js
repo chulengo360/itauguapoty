@@ -194,7 +194,7 @@ var APP_DATA = {
         {
           "yaw": 1.83456436088768,
           "pitch": 0.2576834594756452,
-          "title": "Obra en construccion&nbsp;",
+          "title": "Obra en construcci&oacute;n",
           "text": "Este sera nuestro futuro SUM"
         },
         {
@@ -282,7 +282,7 @@ var APP_DATA = {
     },
     {
       "id": "4-casa_retro",
-      "name": "Casa principal",
+      "name": "Casa principal: exterior",
       "levels": [
         {
           "tileSize": 256,
@@ -345,7 +345,7 @@ var APP_DATA = {
     },
     {
       "id": "5-cocina",
-      "name": "El interior",
+      "name": "Casa principal: interior",
       "levels": [
         {
           "tileSize": 256,
