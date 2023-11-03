@@ -270,7 +270,7 @@ var APP_DATA = {
           "yaw": -1.8047180572796364,
           "pitch": -0.005683144653247041,
           "title": "Techo Verde",
-          "text": "Hacer click en la icona para ver el video en pantalla completa: <br> <iframe width=\"100%\"  src=\"https://www.youtube.com/embed/B8Ga2aAyizo?si=-Ru9o3bnpnxqweko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+          "text": "Hacer click en la icona para ver el video en pantalla completa: <br> <iframe width=\"100%\"  src=\"https://www.youtube.com/embed/1dPR0uEfQo8?si=k-1uwCf3b6hXaYMl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
         },
         {
           "yaw": -2.902249357730163,
