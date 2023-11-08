@@ -407,6 +407,10 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .mobile .link-hotspot {
   top: 19px; /* ( 70 - (16 + 2*8) ) / 2 */
+  opacity: 1;
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 .mobile .link-hotspot-tooltip {
