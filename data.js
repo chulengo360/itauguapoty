@@ -130,12 +130,12 @@ var APP_DATA = {
           "title": "El vivero",
           "text": "<iframe width=\"100%\" style=\"min-height:280px;\" src=\"https://www.youtube.com/embed/videoseries?list=PLau0K75XyhPa9AEI46g2MPv3t-89JWd39&rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         },
-        {
+        /*{
           "yaw": 0.5022539795221252,
           "pitch": 0.1226820296719282,
           "title": "Volver al taller",
           "text": ""
-        },
+        },*/
         {
           "yaw": -0.5789614107691747,
           "pitch": -0.27183227676044375,
