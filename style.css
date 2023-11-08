@@ -411,6 +411,9 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .mobile .link-hotspot-tooltip {
   opacity: 1;
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 .no-touch .link-hotspot:hover .link-hotspot-tooltip {
