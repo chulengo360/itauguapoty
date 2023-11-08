@@ -122,13 +122,13 @@ var APP_DATA = {
           "yaw": 3.0535138709768006,
           "pitch": 0.5449655560387683,
           "title": "Nuestra huerta",
-          "text": "Hacer click en la icona para ver el video en pantalla completa: <br> <iframe width=\"100%\"  src=\"https://www.youtube.com/embed/12Cbmi2w6dc?si=MQUJVSfNCuHTEtz7\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+          "text": "<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/12Cbmi2w6dc?si=MQUJVSfNCuHTEtz7\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> <br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         },
         {
           "yaw": -0.024253407601758425,
           "pitch": 0.41237728679105956,
           "title": "El vivero",
-          "text": "Hacer click en la icona para ver el video en pantalla completa: <br> <iframe width=\"100%\"  src=\"https://www.youtube.com/embed/OZ_hENJKcXs?si=tjO0XXfvs0MNhqmW\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+          "text": "<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/OZ_hENJKcXs?si=tjO0XXfvs0MNhqmW\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe> <br> <br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         },
         {
           "yaw": 0.5022539795221252,
@@ -270,7 +270,7 @@ var APP_DATA = {
           "yaw": -1.8047180572796364,
           "pitch": -0.005683144653247041,
           "title": "Techo Verde",
-          "text": "Hacer click en la icona para ver el video en pantalla completa: <br> <iframe width=\"100%\"  src=\"https://www.youtube.com/embed/1dPR0uEfQo8?si=k-1uwCf3b6hXaYMl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+          "text": "<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/1dPR0uEfQo8?si=k-1uwCf3b6hXaYMl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> <br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         },
         {
           "yaw": -2.902249357730163,
@@ -339,7 +339,7 @@ var APP_DATA = {
           "yaw": -1.5841829249992774,
           "pitch": 0.4224050130834538,
           "title": "Patio",
-          "text": "Hacer click en la icona para ver el video en pantalla completa: <br> <iframe width=\"100%\"  src=\"https://www.youtube.com/embed/tnIRpdNYDv8?si=LAAEk_yPDm3Ci1pC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+          "text": "<iframe width=\"100%\"  src=\"https://www.youtube.com/embed/tnIRpdNYDv8?si=LAAEk_yPDm3Ci1pC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> <br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         }
       ]
     },
