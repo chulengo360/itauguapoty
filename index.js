@@ -338,6 +338,8 @@
     closeIcon.src = 'img/close.png';
     closeIcon.classList.add('info-hotspot-close-icon');
     closeWrapper.appendChild(closeIcon);
+    
+
 
     // Construct header element.
     header.appendChild(iconWrapper);
@@ -362,11 +364,15 @@
     var toggle = function() {
       wrapper.classList.toggle('visible');
       modal.classList.toggle('visible');
+      toggleAutorotate();
+/*      if(!viewer.setIdleMovement(Infinity)){
+          viewer.setIdleMovement(Infinity);
+          }*/
     };
 
     // Show content when hotspot is clicked.
     wrapper.querySelector('.info-hotspot-header').addEventListener('click', toggle);
-
+    
     // Hide content when close icon is clicked.
     modal.querySelector('.info-hotspot-close-wrapper').addEventListener('click', toggle);
 
