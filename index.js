@@ -184,6 +184,7 @@
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
 
+
   function switchScene(scene) {
     stopAutorotate();
     scene.view.setParameters(scene.data.initialViewParameters);
@@ -198,6 +199,12 @@
     updateSceneName(scene);
     updateSceneList(scene);
     enableGiro(scene);
+    //tento di risolvere il problema del toggleAutorotate se una info e' aperta quando si cambia scena
+    /*if (!autorotateToggleElement.classList.contains('enabled')) {
+        if (!document.body.classList.contains('mobile')) {
+            toggleAutorotate();
+        }
+    }*/
   }
 
   function updateSceneName(scene) {
@@ -304,6 +311,11 @@
     return wrapper;
   }
 
+
+    //Sempre provando a risolvere il problema di molteplici infohotspots aperti e autorate
+    var InfoHotspotsAperti = 0; 
+    
+    
   function createInfoHotspotElement(hotspot) {
 
     // Create wrapper element to hold icon and tooltip.
@@ -361,13 +373,49 @@
     modal.classList.add('info-hotspot-modal');
     document.body.appendChild(modal);
 
+
+
+ 
+    var aperto = 0;
     var toggle = function() {
       wrapper.classList.toggle('visible');
       modal.classList.toggle('visible');
-      toggleAutorotate();
-/*      if(!viewer.setIdleMovement(Infinity)){
-          viewer.setIdleMovement(Infinity);
-          }*/
+      //PROBLEMA SE UN INFO HOTSPOT e' GIA APERTO, APRIRNE UN ALTRO RIATTIVA LA AUTOROTATE
+      if(aperto==0){
+          //if(InfoHotspotsAperti <1){
+          //autorotateToggleElement.classList.remove('enabled');
+          //stopAutorotate();
+          /*removeElementsByClass('info-hotspot');
+          data.infoHotspots.forEach(function(hotspot) {
+              var element = createInfoHotspotElement(hotspot);
+              scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
+          });*/
+          InfoHotspotsAperti++;
+          aperto = 1;
+      }
+      /*else{
+          //if (autorotateToggleElement.classList.contains('enabled')) {
+            autorotateToggleElement.classList.add('enabled');          
+            startAutorotate();
+            if (InfoHotspotsAperti>1){ document.write(InfoHotspotsAperti);}
+            InfoHotspotsAperti--;
+            
+          //}
+      }
+      }*/
+      else{
+          aperto=0;
+          InfoHotspotsAperti--;
+      }
+      if(InfoHotspotsAperti <1){
+          autorotateToggleElement.classList.add('enabled');          
+          startAutorotate();
+      }  
+      else{
+          autorotateToggleElement.classList.remove('enabled');
+          stopAutorotate();
+      }
+       //if (InfoHotspotsAperti>2){ document.write(InfoHotspotsAperti);}
     };
 
     // Show content when hotspot is clicked.
@@ -382,6 +430,16 @@
 
     return wrapper;
   }
+
+    //FUNZIONE CHE CHIUDE TUTTI GLI INFO HOTSPOT APERTI
+
+/*function removeElementsByClass(className){
+var elements = document.getElementsByClassName(className);
+while(elements.length > 0){
+ if(elements[0].parentNode.removeChild(elements[0]);
+}
+}*/
+
 
   // Prevent touch and scroll events from reaching the parent element.
   function stopTouchAndScrollEventPropagation(element, eventList) {
