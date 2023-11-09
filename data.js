@@ -263,8 +263,8 @@ var APP_DATA = {
         {
           "yaw": -0.7258370758265293,
           "pitch": 0.18113987840973778,
-          "title": "El taller",
-          "text": "AcÃ¡ se encuentran las herramientas para las obras en bioarquitectura."
+          "title": "Bloques de tierra comprimida",
+          "text": "El taller ha sido construido con BTC (bloques de tierra comprimida). Se trata de bloques constructivos fabricados a base de una mezcla de tierra, arena y arcilla, pudiendo contener también cal aérea o hidráulica como estabilizante. Tras preparar la mezcla adecuada se moldea y comprime en una prensa mecánica. Los muros de tierra presentan una ventaja y es que regulan de manera natural la humedad y la temperatura de la vivienda."
         },
         {
           "yaw": -1.7047180572796364,
