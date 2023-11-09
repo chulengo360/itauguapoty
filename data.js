@@ -196,13 +196,13 @@ var APP_DATA = {
           "pitch": 0.2576834594756452,
           "title": "Obra en construcci&oacute;n",
           "text": "Este sera nuestro futuro SUM"
-        },
+        }/*,
         {
           "yaw": -2.7684959637057993,
           "pitch": 0.08101208660497505,
           "title": "Volver al taller",
           "text": ""
-        }
+        }*/
       ]
     },
     {
@@ -267,22 +267,22 @@ var APP_DATA = {
           "text": "Acá tenemos las herramientas para las obras."
         },
         {
-          "yaw": -1.8047180572796364,
+          "yaw": -1.7047180572796364,
           "pitch": -0.005683144653247041,
-          "title": "Techo Verde",
+          "title": "Hacia la casa principal",
           "text": "<iframe width=\"100%\" style=\"min-height:280px;\" src=\"https://www.youtube.com/embed/videoseries?list=PLau0K75XyhPYgO7Wh1wDgpBZ2H5mgNRs7&rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
-        },
+        }/*,
         {
           "yaw": -2.902249357730163,
           "pitch": -0.6169479418227937,
           "title": "Volver a la vista aerea",
           "text": "Volver a la vista con el drone"
-        }
+        }*/
       ]
     },
     {
       "id": "4-casa_retro",
-      "name": "Casa principal: exterior",
+      "name": "Casa principal",
       "levels": [
         {
           "tileSize": 256,
@@ -330,10 +330,10 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -0.3515938937714296,
-          "pitch": 0.6357505482898436,
-          "title": "Entrar en la casa",
-          "text": ""
+          "yaw": -0.2315938937714296,
+          "pitch": 0.3857505482898436,
+          "title": "Frente de la casa",
+          "text": "<iframe width=\"100%\" style=\"min-height:280px;\" src=\"https://www.youtube.com/embed/videoseries?list=PLau0K75XyhPYy4ICehLY0RzyBJGlshFVI&rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         },
         {
           "yaw": -1.5841829249992774,
@@ -345,7 +345,7 @@ var APP_DATA = {
     },
     {
       "id": "5-cocina",
-      "name": "Casa principal: interior",
+      "name": "Interior de la casa",
       "levels": [
         {
           "tileSize": 256,
