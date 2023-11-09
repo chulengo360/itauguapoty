@@ -194,8 +194,8 @@ var APP_DATA = {
         {
           "yaw": 1.83456436088768,
           "pitch": 0.2576834594756452,
-          "title": "Obra en construcci&oacute;n",
-          "text": "Este sera nuestro futuro SUM"
+          "title": "Arquitectura natural",
+          "text": "La bioconstruccion es un sistema de edificacion mucho mas antiguo de lo que se cree y se ha transmitido por siglos en las culturas originarias y tambien entre los campesinos. "
         }/*,
         {
           "yaw": -2.7684959637057993,
