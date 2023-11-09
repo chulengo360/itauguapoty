@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-cielo",
-      "name": "Itaugua Poty desde el cielo",
+      "name": "Desde el cielo",
       "levels": [
         {
           "tileSize": 256,
