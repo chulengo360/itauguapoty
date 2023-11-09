@@ -59,14 +59,14 @@ var APP_DATA = {
           "yaw": -2.921150484404592,
           "pitch": 0.9078822549261805,
           "title": "Techo Verde",
-          "text": "La casa no se nota desde el cielo porqué tiene techo vivo de plantas."
+          "text": "La casa no se nota desde el cielo porqué tiene un techo vivo de plantas."
         },
-        /*{
-          "yaw": -0.4643032567012888,
-          "pitch": 0.4163052759251791,
-          "title": "Huerta",
-          "text": "Nuestra huerta agroecologica"
-        },*/
+        {
+          "yaw": -0.1943032567012888,
+          "pitch": 0.0263052759251791,
+          "title": "Panoramica en vuelo",
+          "text": "<iframe width=\"100%\" style=\"min-height:280px;\" src=\"https://www.youtube.com/embed/videoseries?list=PLau0K75XyhPacJE3ygMX0MAFoqBeGLEpR&rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
+        },
         {
           "yaw": 1.9369546665250095,
           "pitch": -0.08125975294094445,
@@ -121,7 +121,7 @@ var APP_DATA = {
         {
           "yaw": 3.0535138709768006,
           "pitch": 0.5449655560387683,
-          "title": "Nuestra huerta",
+          "title": "La huerta",
           "text": "<iframe width=\"100%\" style=\"min-height:280px;\" src=\"https://www.youtube.com/embed/videoseries?list=PLau0K75XyhPZ-Ko4KgrTXdRlhMsNUEeFW&rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         },
         {
@@ -263,8 +263,8 @@ var APP_DATA = {
         {
           "yaw": -0.7258370758265293,
           "pitch": 0.18113987840973778,
-          "title": "Nuestro taller",
-          "text": "Acá tenemos las herramientas para las obras."
+          "title": "El taller",
+          "text": "Acá se encuentran las herramientas para las obras en bioarquitectura."
         },
         {
           "yaw": -1.7047180572796364,
@@ -338,7 +338,7 @@ var APP_DATA = {
         {
           "yaw": -1.5841829249992774,
           "pitch": 0.4224050130834538,
-          "title": "Patio",
+          "title": "El Patio",
           "text": "<iframe width=\"100%\" style=\"min-height:280px;\" src=\"https://www.youtube.com/embed/videoseries?list=PLau0K75XyhPbMaZGx-pno7r2_pLjLgXoH&rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><br> Hacer click en la icona <img width=20px height=auto src=\"img/youtube_fullscreen.png\"> para ver el video en pantalla completa. <br> Una vez terminado hacer click en la icona <img width=20px height=auto src=\"img/youtube_resize.png\"> o presionar ESC para volver a la vista actual."
         }
       ]
@@ -380,24 +380,24 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
+        /*{
           "yaw": 2.8228853475167845,
           "pitch": 0.3966238488714531,
           "title": "Baño",
-          "text": "Text"
-        },
+          "text": ""
+        },*/
         {
           "yaw": -0.43177370560372985,
           "pitch": 0.30017962223704053,
           "title": "Cocina",
           "text": ""
-        },
+        }/*,
         {
           "yaw": 1.5956069249469982,
           "pitch": 0.5788322541691109,
           "title": "Volver a salir",
           "text": ""
-        }
+        }*/
       ]
     }
   ],
